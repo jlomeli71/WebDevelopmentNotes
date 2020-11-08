@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Practice Web Page</title>
+    </head>
+    <body>
+        <!-- Heading types -->
+        <br>        <!-- This is a line break example -->
+        <hr>        <!-- This is a horizontal break, and draws a line -->
+        <h3>Headers types</h3>  <!-- I will use this header type as title for the section -->
+        <hr>
+        <h1>This is header 1</h1>
+        <h2>This is header 2</h2>
+        <h3>This is header 3</h3>
+        <h4>This is header 4</h4>
+        <h5>This is header 5</h5>
+        <h6>This is header 6</h6>
+        
+        <!-- Paragragh examples -->
+        <br>
+        <hr>   
+        <h3>Paragragh examples</h3>
+        <hr>
+        <p>This is a simple paragragh</p>
+        <p>This is another paragragh</p>
+        <p>Lorem ipsum dolor sit amet.</p>  <!-- this was created using the option lorem5 -->
+
+        <!-- There are plenty of tags, other examples: -->
+        <p>This is an example of the <b>bold</b> tag</p>
+        <p>This is an example of the <em>emphatize</em> tag</p>
+        <p>This is an example of the <i>italic</i> tag</p>
+
+        <!-- There are other tags, for example these are useful when using CSS code -->
+        <div></div>     <!-- this is for blocks of code -->
+        <span></span>   <!-- this is for inline elements -->
+
+        <!-- Some new tags elements in HTML5 -->
+        <!-- With these new task, the idea is to provide better structure to html documents-->
+        <header></header>
+        <nav></nav>
+        <section></section>
+        <article></article>
+        <aside></aside>
+        <footer></footer>
+
+        <!-- Lists examples -->
+        <br>
+        <hr>   
+        <h3>List examples</h3>
+        <hr>
+        <!-- Example of an unordered list -->
+        <ul>
+            <li>Banana</li>
+            <li>Apple</li>
+            <li>Lemon</li>
+        </ul>
+        
+        <!-- Example of an ordered list: -->
+        <ol>
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+        </ol>
+
+        <!-- Example of adding an image: -->
+        <br>
+        <hr>   
+        <h3>Adding images</h3>
+        <hr>
+        <!-- The information of an image is added as atributes -->
+        <img src="images/puppy.JPG" alt="My puppy" height="80" width="120"><br>
+        <img src="https://i.kym-cdn.com/entries/icons/mobile/000/011/365/GRUMPYCAT.jpg" alt="Grumpy cat" height="80" width="120"><br>
+
+        <!-- Example of adding a link: -->
+        <br>
+        <hr>   
+        <h3>Adding links</h3>
+        <hr>
+        <a href="https://www.google.com/">Link to Google</a><br>
+        <a href="index2.html">My CSS demo page</a>
+        <a href="index.html"><h3> Go back</h3></a>
+
+        <!-- Example of a table: -->
+        <br>
+        <hr>   
+        <h3>Adding a table</h3>
+        <hr>
+        <table>
+            <tr>
+              <th>English</th>
+              <th>Spanish</th>
+              <th>Italian</th>
+            </tr>
+            <tr>
+              <td>Hello</td>
+              <td>Hola</td>
+              <td>Ciao</td>
+            </tr>
+            <tr>
+              <td>Eat</td>
+              <td>Comer</td>
+              <td>Mangiar</td>
+            </tr>
+            <tr>
+                <td>Good morning</td>
+                <td>Buenos dias</td>
+                <td>Buongiorno</td>
+            </tr>
+          </table>        
+
+        <!-- Example of adding a form: -->
+        <br>
+        <hr>   
+        <h3>Adding a form</h3>
+        <hr>
+        <!-- We have several form elements -->
+        <form method="POST" action="action.php">  <!-- by default the method is GET, but shows all data in the url-->
+            First name:<br>                       <!-- the actions is not used any more, there are more options-->
+            <input type="text" name="firstname"><br>
+            Last name:<br>
+            <input type="text" name="lastname"><br>
+            Email: <br>
+            <input type="email" name="email" required><br>
+            Password: <br>
+            <input type="password" name="password" required min="5"><br>
+            Bithday: <br>
+            <input type="date" name="birthday" required><br>
+            Gender: <br>
+            <input type="radio" name="gender" value="Male">Male<br>
+            <input type="radio" name="gender" value="Female">Female<br>
+            <input type="radio" name="gender" value="Othergender">Other<br>
+            Pets: <br>
+            <input type="checkbox" name="cat">Cat<br>
+            <input type="checkbox" name="dog">Dog<br>
+            <input type="checkbox" name="otherpet">Other<br>
+            Cars: <br>
+            <select name="cars">
+                <option value="Volvo" name="volvo">Volvo</option>
+                <option value="Audi" name="audi">Audi</option>
+                <option value="Othercar" name="othercar">Other</option>
+            </select><br>
+            <input type="submit" value="Submit">
+            <input type="submit" value="Reset">
+        </form>        
+
+    </body>
+</html>
+

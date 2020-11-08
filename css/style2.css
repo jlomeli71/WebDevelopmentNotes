@@ -1,0 +1,121 @@
+/* 
+    The format of CSS is basically:
+        selector {
+            property: value;
+        }
+
+    A good refernce for examples is:
+    https://css-tricks.com/
+    For free images:
+    https://unsplash.com/
+    For chossing colors:
+    https://paletton.com/
+    For fonts:
+    https://fonts.google.com/
+	For animatio:
+	https://animate.style/
+	For templates:
+	https://www.creative-tim.com/
+	http://www.mashup-template.com/
+	For CSS grid
+	http://cssgridgarden.com
+*/
+
+/* 
+Types of CSS Selectors 
+. for class properties
+# for id properties
+* for everything
+element
+element1, element2              applied to all elements1 and element2
+element1 element2               applied only on element2 inside element1
+element1 > element2             applied to element2 if parent is element1
+element1 + element2             any element2 after an element1
+:hover
+:last-child                     the last element
+:first-child                    the first element
+!important (not recommended)    overrides
+
+The order of rules
+- Specifity
+- Importance
+- Order
+
+Consider the box model
+    --------------
+        Margin
+    --------------
+        Border
+    -------------- 
+        Padding
+    --------------
+        Content
+    --------------
+
+Another thing to consider is px vs rem
+ - px is pixels
+ - em is number of elements of the original soze
+ - rem is the relation base on the root element
+*/
+
+* {
+    align-items: rigth;
+}
+
+body {
+    background-image: url(../images/background1.jpg);
+    background-size: cover;
+}
+
+h2, p {
+    color: blue;
+    background-color: rgba(0,255,0,0.2);
+    text-align: center;
+    border: 5px dashed #182157;
+    cursor: pointer;
+    text-decoration: blue;
+    text-transform: capitalize;
+    line-height: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 100%;
+    font-family: 'Lobster', cursive;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+
+.webtext {
+    border: 5px dashed green
+}
+
+.active {
+    color: red
+}
+
+#div1 {
+    background: rgba(0, 0, 255, 0.2);
+}
+
+img {
+    float: left;
+}
+
+#div2 {
+    background: rgba(255, 0, 0, 0.2);
+}
+footer {    
+
+}
+
+.boxmodel {
+    display: inline-block;
+    margin: 20px lightblue;
+    border: 5px solid red;
+    padding: 5px 20px 5px 20px;
+    width: 200px;
+    height: 100px;
+}
