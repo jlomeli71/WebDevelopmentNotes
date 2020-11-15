@@ -1,4 +1,4 @@
-# Web Development practice repository
+# Web Development Notes
 
 This repository is for storing notes on my Web Development learning experience, I been taking notes and doins several excercises.
 
