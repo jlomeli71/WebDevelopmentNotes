@@ -2,5 +2,7 @@
 *.log
 *.gz
 *.map
-*checkpoint*
+.ipynb_checkpoints
+css-practice
+html-practice
 
